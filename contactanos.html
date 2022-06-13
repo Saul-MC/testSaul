@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactanos</title>
+</head>
+<body>
+    <h3>Registrate en nuestro sitio web</h4>
+    <p><a href="index.html">Página principal</a></p>
+    <hr>
+    <form action="">
+        <p><input type="text" placeholder="Nombre" pattern="[A-Za-z]{3,10}" autofocus required></p>
+        <p><input type="text" placeholder="Usuario" pattern="[A-Za-z0-9]{3,15}" required></p>
+        <p><input type="email" placeholder="Correo electrónico"required></p>
+        <p><input type="text" placeholder="DNI" pattern="[^0]{6}"></p>
+        <p><input type="password" placeholder="Contraseña" required minlength="6" maxlength="10"></p>
+        <p><input type="text" placeholder="Número telefónico" pattern="[0-9]{9}" ></p>
+        <p><input type="url" placeholder="Mi web"></p>
+        <h6>Ingrese su fecha de nacimiento</h6>
+        <p><select name="">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+        </select>
+        <select name="">
+            <option value="enero">Enero</option>
+            <option value="febrero">Febrero</option>
+            <option value="marzo">Marzo</option>
+            <option value="abril">Abril</option>
+            <option value="mayo">Mayo</option>
+        </select>
+        <select name="">
+            <option value="2022">2022</option>
+            <option value="2021">2021</option>
+            <option value="2020">2020</option>
+            <option value="2019">2019</option>
+            <option value="2018">2018</option>
+        </select>
+    </p>
+    <p>
+        <input type="radio" name="nombreigual" value="Mujer"> Mujer
+        <input type="radio" name="nombreigual" value="Hombre"> Hombre
+        <input type="radio" name="nombreigual" value="Indefinido"> Por definir
+    </p>
+        <p><textarea  cols="30" rows="10" placeholder="Escribe una opinión"></textarea></p>    
+        <p><input type="submit" value="Ingresar"></p>
+    </form>
+</body>
+</html>
